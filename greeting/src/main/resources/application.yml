@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: client-hello-world
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+
+server:
+  port: 8088
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
